@@ -1,0 +1,16 @@
+{
+  "name": "dlt-collector",
+  "version": "1.0.0",
+  "description": "大乐透开奖数据收集器（数据源：中国体彩网官方接口）",
+  "main": "dlt.js",
+  "scripts": {
+    "start": "node dlt.js",
+    "latest": "node dlt.js latest",
+    "fetch": "node dlt.js fetch",
+    "stats": "node dlt.js stats"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
